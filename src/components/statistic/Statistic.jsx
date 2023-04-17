@@ -1,4 +1,4 @@
-export function Statistic({positive, good, bad, neutral, total }) {
+export function Statistic({ positive, good, bad, neutral, total }) {
   return (
     <div className="cont">
       <ul className="stats">
@@ -15,7 +15,7 @@ export function Statistic({positive, good, bad, neutral, total }) {
           <span>Total:{total}</span>
         </li>
         <li className="statsList">
-            <span>Positive:{positive}%</span>
+          <span>Positive:{positive}%</span>
         </li>
       </ul>
     </div>
