@@ -49,7 +49,6 @@ export class App extends Component {
               neutral={neutral}
               total={total}
               positive={positive}
-              message="jjjjjj"
             />
           ) : (
             <Notification message="There is no feedback" />
